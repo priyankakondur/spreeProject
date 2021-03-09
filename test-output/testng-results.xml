@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-09T22:40:38 IST" name="Default Suite" finished-at="2021-03-09T22:41:24 IST" duration-ms="45862">
+    <groups>
+    </groups>
+    <test started-at="2021-03-09T22:40:38 IST" name="mavenSpreeProject" finished-at="2021-03-09T22:41:24 IST" duration-ms="45862">
+      <class name="tests.SearchAndFilterProductsTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.SearchAndFilterProductsTest@3c0a50da]" started-at="2021-03-09T22:41:12 IST" name="setDriver" finished-at="2021-03-09T22:41:16 IST" duration-ms="3527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="FilterUsingCategoryOrBrandAndPrice()[pri:0, instance:tests.SearchAndFilterProductsTest@3c0a50da]" started-at="2021-03-09T22:41:16 IST" name="FilterUsingCategoryOrBrandAndPrice" finished-at="2021-03-09T22:41:17 IST" duration-ms="1083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterUsingCategoryOrBrandAndPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchAndFilterProductsTest@3c0a50da]" started-at="2021-03-09T22:41:17 IST" name="tearDown" finished-at="2021-03-09T22:41:18 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.SearchAndFilterProductsTest@3c0a50da]" started-at="2021-03-09T22:41:18 IST" name="setDriver" finished-at="2021-03-09T22:41:21 IST" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="SearchProducts()[pri:0, instance:tests.SearchAndFilterProductsTest@3c0a50da]" started-at="2021-03-09T22:41:21 IST" name="SearchProducts" finished-at="2021-03-09T22:41:23 IST" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchAndFilterProductsTest@3c0a50da]" started-at="2021-03-09T22:41:23 IST" name="tearDown" finished-at="2021-03-09T22:41:24 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchAndFilterProductsTest -->
+      <class name="tests.AddMugItemsAndEmptyCartTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.AddMugItemsAndEmptyCartTest@2d127a61]" started-at="2021-03-09T22:40:38 IST" name="setDriver" finished-at="2021-03-09T22:40:42 IST" duration-ms="4114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="AddMugItemsAndEmptyCart()[pri:0, instance:tests.AddMugItemsAndEmptyCartTest@2d127a61]" started-at="2021-03-09T22:40:42 IST" name="AddMugItemsAndEmptyCart" finished-at="2021-03-09T22:40:54 IST" duration-ms="11729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMugItemsAndEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddMugItemsAndEmptyCartTest@2d127a61]" started-at="2021-03-09T22:40:54 IST" name="tearDown" finished-at="2021-03-09T22:40:54 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMugItemsAndEmptyCartTest -->
+      <class name="tests.AddRubyOnRailsToCartAndCheckPriceTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.AddRubyOnRailsToCartAndCheckPriceTest@473b46c3]" started-at="2021-03-09T22:40:54 IST" name="setDriver" finished-at="2021-03-09T22:40:58 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="AddRubyOnRailsMugToCartAndValidatePrice()[pri:0, instance:tests.AddRubyOnRailsToCartAndCheckPriceTest@473b46c3]" started-at="2021-03-09T22:40:58 IST" name="AddRubyOnRailsMugToCartAndValidatePrice" finished-at="2021-03-09T22:41:05 IST" duration-ms="7362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRubyOnRailsMugToCartAndValidatePrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddRubyOnRailsToCartAndCheckPriceTest@473b46c3]" started-at="2021-03-09T22:41:05 IST" name="tearDown" finished-at="2021-03-09T22:41:06 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddRubyOnRailsToCartAndCheckPriceTest -->
+      <class name="tests.VerifyLoginLogoutTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.VerifyLoginLogoutTest@516be40f]" started-at="2021-03-09T22:41:06 IST" name="setDriver" finished-at="2021-03-09T22:41:09 IST" duration-ms="3944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="LoginUsingEmailAndPassword()[pri:0, instance:tests.VerifyLoginLogoutTest@516be40f]" started-at="2021-03-09T22:41:09 IST" name="LoginUsingEmailAndPassword" finished-at="2021-03-09T22:41:12 IST" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUsingEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.VerifyLoginLogoutTest@516be40f]" started-at="2021-03-09T22:41:12 IST" name="tearDown" finished-at="2021-03-09T22:41:12 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyLoginLogoutTest -->
+    </test> <!-- mavenSpreeProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
